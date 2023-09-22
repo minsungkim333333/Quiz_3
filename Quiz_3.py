@@ -1,15 +1,15 @@
 score=[90,45,64,9,17,29]
-a=[]
+result=[]
 for i in score :
     if i >= 71:
-        a.append('A')
+        result.append('A')
     elif i >= 41:
-        a.append('B')
+        result.append('B')
     elif i >= 11:
-        a.append('C')
+        result.append('C')
     else:
-        a.append('D')
-print(a)
+        result.append('D')
+print(result)
 
 
 
